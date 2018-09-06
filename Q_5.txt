@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Main 
+{
+    public static void main(String[] args)
+    {
+        int count;
+        Scanner sc=new Scanner(System.in);
+        String  check=new String();
+        String string=new String();
+        string=sc.nextLine();
+        check=sc.nextLine();
+        if(string.contains(check))
+        {
+          System.out.print("Yes");
+        }
+        else
+        {
+          System.out.print("No");
+        }
+    }
+}
